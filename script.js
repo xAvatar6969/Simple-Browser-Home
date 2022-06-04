@@ -10,31 +10,27 @@ window.onload = function() {
 
 function handle(e) {
     if(e.key == 'Enter') {
-        if(search.value == 't') {
-            window.location.href = 'https://translate.google.it/?hl=it'
-        } else {
-            window.location.href = 'https://google.com/search?q=' + search.value
-        }
+        window.location.href = 'https://google.com/search?q=' + search.value
     }
 }
 
 
-function reg() {
-    window.location.href = 'https://axiositalia.it/accesso-registro-elettronico/'
+function r1() {
+    window.location.href = ''
 }
 
-function cr() {
-    window.location.href = 'https://classroom.google.com/u/1/h'
+function r2() {
+    window.location.href = ''
 }
 
-function ml() {
-    window.location.href = 'https://mail.google.com/mail/u/1/#inbox'
+function r3() {
+    window.location.href = ''
 }
 
-function nw() {
-    window.location.href = 'https://news.google.com/foryou?hl=it&gl=IT&ceid=IT%3Ait'
+function r4() {
+    window.location.href = ''
 }
 
-function git() {
-    window.location.href = 'https://github.com/'
+function r5() {
+    window.location.href = ''
 }
