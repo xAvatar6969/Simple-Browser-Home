@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="icon" href="icon.png">
+
+        <script src="script.js"></script>
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="preload" href="background.jpg" as="image">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Cercatore</h1>
+            <input type="text" autocomplete="off" id="search" placeholder="Cerca qualcosa..." value="" onkeypress="handle(event)" />
+            <div class="btns">
+                <button class="btn" onclick="reg()"><h3><i class="bi bi-clipboard" style="color: white;"></i></h3></button>
+                <button class="btn" onclick="cr()"><h3><i class="bi bi-people" style="color: white;"></i></h3></button>
+                <button class="btn" onclick="ml()"><h3><i class="bi bi-envelope" style="color: white;"></i></h3></button>
+                <button class="btn" onclick="nw()"><h3><i class="bi bi-newspaper" style="color: white;"></i></h3></button>
+                <button class="btn" onclick="git()"><h3><i class="bi bi-github" style="color: white;"></i></h3></button>
+            </div>
+        </div>
+    </body>
+</html>
