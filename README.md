@@ -5,3 +5,5 @@ You can edit it the way you want and use it in your browser. Make sure to add th
 
 
 *The CSS should work in every computer display, but not surely.*
+
+![Screenshot](https://github.com/xAvatar6969/Simple-Browser-Home/blob/main/Screenshot.png?raw=true)
